@@ -41,7 +41,7 @@ public class Left_rotate_by_d_place {
             { 
                 arr[j] = arr[j + 1]; // Shift the array elements by 1 place to the left
             }
-            arr[arr.length - 1] = start;  // Assign the start value to the last index of the array
+            arr[n - 1] = start;  // Assign the start value to the last index of the array
         }
 
         return arr;
