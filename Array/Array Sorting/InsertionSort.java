@@ -1,4 +1,4 @@
-// Pushes the maximum to the last index by adjacent swaps
+// Select an element and place it in corresponding position until it gets sorted
 
 
 public class InsertionSort {
