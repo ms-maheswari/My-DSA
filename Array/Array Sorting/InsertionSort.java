@@ -25,7 +25,6 @@ public class InsertionSort {
 
     // Method to perform Insertion sort
     private static int[] sort(int[] arr, int n) {
-
         // Outer loop iterates from first index to last index
 
         for (int i = 0; i <= n - 1; i++) {
