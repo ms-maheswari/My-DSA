@@ -21,3 +21,7 @@ public class Element_appears_once {
         return xorr;
     }
 }
+
+// Output
+
+// The element 4 occurs once
