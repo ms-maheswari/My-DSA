@@ -1,4 +1,4 @@
-// In this program we have to find the longest subarray whose sum is equal to the given sum K
+// In this program we have to find the length of longest subarray whose sum is equal to the given sum K
 
 public class Longest_Subarray_with_sum_k {
 
