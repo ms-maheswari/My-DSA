@@ -10,7 +10,7 @@ public class Sort_0s_1s_2s {
         }
 
         int[] result = Sort_0s_1s_2s( arr, n); //Call the sort method to find the result
-        System.out.println("\nSorted array ");
+        System.out.println("\n\nSorted array ");
         
         // Use loopt to print the result
         for (int i = 0; i < n; i++) {
