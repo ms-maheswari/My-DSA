@@ -1,7 +1,6 @@
 // HashSet is used to store the unique elements and it will automatically remove the duplicates 
 
 import java.util.HashSet;
-
 public class Union_of_two_sorted_arrays {
     public static void main(String[] args) {
         // Define the first sorted array
