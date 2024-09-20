@@ -1,4 +1,4 @@
-package Strings;
+package Easy;
 
 public class Remove_Outermost {
     public static void main(String[] args) {

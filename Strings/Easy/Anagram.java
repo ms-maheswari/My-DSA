@@ -1,3 +1,4 @@
+package Easy;
 import java.util.Arrays;
 
 public class Anagram {
