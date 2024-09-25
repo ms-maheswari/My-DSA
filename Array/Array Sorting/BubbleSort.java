@@ -25,18 +25,19 @@ public class BubbleSort {
 
     // Method to perform Bubble sort
 
-    private static int[] sort(int[] arr, int n) {
-        // Outer loop iterates from the last index to the first
-        for (int i = n - 1; i >= 0; i--) {
+     static int[] sort(int[] arr, int n) {
+         // Outer loop iterates from the first element to the last unsorted element
+         for (int i = 0; i < n - 1; i++) {
+            
+            // Inner loop performs adjacent swaps within the unsorted portion of the array
 
-            // Inner loop iterates from the first index to the (i-1)th index
-            for (int j = 0; j <= i - 1; j++) {
-                
-                // If current element is greater than the next element, swap them
+            for (int j = 0; j < n - i - 1; j++) {
+
+                // Compare adjacent elements and swap if they are in the wrong order
                 if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+                    int temp = arr[j];  
+                    arr[j] = arr[j + 1]; 
+                    arr[j + 1] = temp;  
                 }
             }
         }
@@ -44,3 +45,8 @@ public class BubbleSort {
         return arr;
     }
 }
+
+
+// Input : arr[] = {43,54,65,23,12}
+
+// Output: [12, 23, 43, 54, 65]
