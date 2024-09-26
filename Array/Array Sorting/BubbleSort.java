@@ -1,31 +1,18 @@
 // It pushes the maximum to the last index by adjacent swaps
 
+import java.util.Arrays;
 
 public class BubbleSort {
-    public static void main(String[] args) {
-        int[] arr = {43,54,65,23,12};
+  public static void main(String[] args) {
+        int[] arr = {5, 1, 4, 2, 8};
         int n = arr.length;
-
-        System.out.println("Original array:");
-
-        // Use a loop to print the original array elements
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
-
-        // Sorting the array using Bubble sort 
-        int[] result = sort(arr, n);  //Call sort method 
-
-        // Printing sorted array
-        System.out.println("\n\nAfter Bubble sort: ");
-        for (int i = 0; i < n; i++) {
-            System.out.print(result[i] + " ");
-        }
+        bubbleSort(arr, n);
+        System.out.println("Sorted array: " + Arrays.toString(arr));
     }
 
     // Method to perform Bubble sort
 
-     static int[] sort(int[] arr, int n) {
+     static void bubbleSort(int[] arr, int n) {
          // Outer loop iterates from the first element to the last unsorted element
          for (int i = 0; i < n - 1; i++) {
             
@@ -41,12 +28,9 @@ public class BubbleSort {
                 }
             }
         }
-        // Return the sorted array
-        return arr;
     }
 }
 
 
-// Input : arr[] = {43,54,65,23,12}
-
-// Output: [12, 23, 43, 54, 65]
+// Time Complexity : O(n²)	
+// Space Complexity : O(1)
