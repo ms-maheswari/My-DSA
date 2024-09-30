@@ -1,3 +1,4 @@
+package Array.Hard;
 public class Repeating_Missing_number {
     public static void main(String[] args) {
         // Define the array with repeating and missing numbers

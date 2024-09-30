@@ -1,3 +1,4 @@
+package Array.Hard;
 public class Maximum_Product_Subarray {
     public static void main(String[] args) {
         // Sample input array
