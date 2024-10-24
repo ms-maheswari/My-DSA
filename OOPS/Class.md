@@ -53,11 +53,10 @@ ClassName objectName = new ClassName();
 - A constructor is a special method used to initialize objects. 
 - It has the same name as the class and does not return a value.
 ```bash
-
-    // Constructor
-    public ClassName() {
-        // Constructor body
-    }
+// Constructor
+public ClassName() {
+   // Constructor body
+}
 ```
 ## this
 - The **this** keyword in Java is a reference variable that refers to the current object.
