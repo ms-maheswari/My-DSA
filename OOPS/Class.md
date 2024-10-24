@@ -53,7 +53,6 @@ ClassName objectName = new ClassName();
 - A constructor is a special method used to initialize objects. 
 - It has the same name as the class and does not return a value.
 ```bash
-// Constructor
 public ClassName() {
    // Constructor body
 }
