@@ -1,9 +1,5 @@
 ## Method
-<<<<<<< HEAD
-- A method is a block of code that performs a specific task and can be invoked or called when needed.
-=======
 - A method is a block of code that ***performs a specific task*** and can be invoked or called when needed.
->>>>>>> 1a8e806bf434ffa7f19e0596ad77b261852c819d
 - Methods help you organize code into reusable and manageable pieces.
 - They are defined within a class and can manipulate the data (fields) of the class.
   
