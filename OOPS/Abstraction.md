@@ -99,8 +99,3 @@ Output
 ```bash
 The vehicle starts.
 The car stops.
-<<<<<<< HEAD
-```
-=======
-```
->>>>>>> 1a8e806bf434ffa7f19e0596ad77b261852c819d
