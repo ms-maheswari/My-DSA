@@ -1,39 +1,22 @@
-import java.util.Scanner;
-
 public class Missing_number {
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        System.out.print("Enter the size of array: ");
-
-        // Get the size of the array
-        int n = s.nextInt();
-
-        // Create an array and initialize the size
-        int[] array = new int[n];
-
-        System.out.println("Enter the array elements: ");
-
-        // Use a loop to get the array elements
-        for (int i = 0; i < n-1; i++) {
-            array[i] = s.nextInt();
-        }
-
-        System.out.println("Elements of the array:");
-
-        // Use a loop to print the array elements
-        for (int i = 0; i < n-1; i++) {
-            System.out.print(array[i] + " ");
-        }
-
+    public static int missedNumber(int arr[], int n){
         int sum =(n*(n+1))/2; //formula to find sum from 1 to n
         int arr_sum = 0;
 
         // Use for loop to calculate sum of array elements
-        for(int i=0;i<n;i++){
-            arr_sum+=array[i];
+        for(int i=0; i<n-1; i++){
+            arr_sum += arr[i];
         }
-        
         int result = sum - arr_sum;
-        System.out.println("\nMissing number is "+result);
+        return result;
+    }
+    public static void main(String[] args) {
+        int arr [] = {1, 2, 4, 5};
+        int n = arr.length;
+        int result = missedNumber(arr, n);    
+        System.out.println("Missing number is "+result);
     }
 }
+
+// Input : [1, 2, 4, 5]
+// Output : Missing number is 3
