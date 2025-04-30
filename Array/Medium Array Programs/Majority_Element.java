@@ -1,10 +1,5 @@
 public class Majority_Element {
-    public static void main(String[] args) {
-        int arr[] = {2, 2, 1, 1, 1, 2, 2};
-        int n = arr.length;
-        int max = majorityElement(arr, n);
-        System.out.println(max);
-    }
+    // Moore's Voting Algorithm
     public static int majorityElement(int arr[], int n){
         int candidate = arr[0];
         int count = 0;
@@ -22,4 +17,13 @@ public class Majority_Element {
         }
         return candidate;
     }
+    public static void main(String[] args) {
+        int arr[] = {2, 2, 1, 1, 1, 2, 2};
+        int n = arr.length;
+        int max = majorityElement(arr, n);
+        System.out.println("Majority element is "+max);
+    }    
 }
+
+// Input : [2, 2, 1, 1, 1, 2, 2]
+// Output : Majority element is 2
