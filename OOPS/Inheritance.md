@@ -16,7 +16,7 @@ There are generally four main types of inheritance in Java:
 - Simplest form of inheritance
 
 ### Example
-```bash
+```java
 class Animal {
     void eat() {
         System.out.println("This animal eats food.");
@@ -37,15 +37,15 @@ public class Main {
     }
 }
 ```
-Output
-```bash
+### Output
+```java
 This animal eats food
 The dog barks
 ```
 ### 2. Multilevel Inheritance
 - In multilevel inheritance, a class is derived from a class that is also derived from another class, forming a chain
 ### Example
-```bash
+```java
 class Animal {
     void eat() {
         System.out.println("This animal eats food.");
@@ -73,7 +73,7 @@ public class Main {
     }
 }
 ```
-Output
+### Output
 ```bash
 This animal eats food
 This mammal breathes air
@@ -83,7 +83,7 @@ The dog barks
 - In hierarchical inheritance, multiple classes inherit from a single superclass
 - Each subclass inherits from the same superclass
 ### Example
-```bash
+```java
 class Animal {
     void eat() {
         System.out.println("This animal eats food.");
@@ -114,8 +114,8 @@ public class Main {
     }
 }
 ```
-Output
-```bash
+### Output
+```java
 This animal eats food
 The dog barks
 This animal eats food
@@ -125,7 +125,7 @@ The cat meows
 - It is a combination of two or more types of inheritance
 - Java does not support hybrid inheritance directly due to lack of multiple inheritance for classes, but achieved by ***interface***
 ### Example
-```bash
+```java
 interface Animal {
     void eat();
 }
@@ -160,23 +160,20 @@ public class Main {
 }
 
 ```
-Output
-```bash
+### Output
+```java
 The dog eats
 The dog plays
 ```
 ***Java does not support multiple inheritance*** (where a class inherits from more than one superclass) to avoid ambiguity and complexity.
 
 ### Multiple Inheritance
-<<<<<<< HEAD
 - In Java, multiple inheritance can be ***achieved using interfaces***, where a ***single class can implement multiple interfaces to inherit their behaviors***. - - This allows the class to gain functionality from multiple sources.
-=======
-- In Java, multiple inheritance can be ***achieved using interfaces***, where a ***single class can implement multiple interfaces to inherit their behaviors***.
+
 - This allows the class to gain functionality from multiple sources.
->>>>>>> 1a8e806bf434ffa7f19e0596ad77b261852c819d
 
 ### Example
-```bash
+```java
 interface Animal {
     void eat();
 }
@@ -203,11 +200,8 @@ public class Main {
     }
 }
 ```
-Output
-```bash
+### Output
+```java
 The dog eats food
-<<<<<<< HEAD
 The dog loves to play
-=======
-The dog loves to play
->>>>>>> 1a8e806bf434ffa7f19e0596ad77b261852c819d
+```
