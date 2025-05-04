@@ -12,7 +12,7 @@ A class typically contains:
 - **Constructors** - Special methods to initialize objects.
   
 ### Syntax:
-  ```bash
+  ```java
   class ClassName {
     // Fields (attributes)
     dataType fieldName;
@@ -33,7 +33,7 @@ A class typically contains:
 - A method is a block of code that performs a specific task and can be invoked or called when needed.
 - Methods help you organize code into reusable and manageable pieces.
 - They are defined within a class and can manipulate the data (fields) of the class.
-```bash
+```java
 returnType methodName(parameters) {
     // Method body
     // Code to execute when the method is called
@@ -46,13 +46,13 @@ returnType methodName(parameters) {
 - In Java, objects are used to interact with and manipulate data in a structured way.
 
 To create an object, you need to use the new keyword along with the class constructor.
-```bash
+```java
 ClassName objectName = new ClassName();
 ```
 ## Constructors
 - A constructor is a special method used to initialize objects. 
 - It has the same name as the class and does not return a value.
-```bash
+```java
 public ClassName() {
    // Constructor body
 }
@@ -62,7 +62,7 @@ public ClassName() {
 - It can be used for invoking constructors, returning the current object, and passing the current object as an argument to a method.
 
 ### Example
-```bash
+```java
 // Defining a class named 'Car'
 class Car {
     // Fields (attributes)
@@ -95,7 +95,7 @@ public class Main {
  ```
 
 #### Output
-```bash
+```java
 Car Brand: Toyota
 Manufacturing Year: 2022
 ```
