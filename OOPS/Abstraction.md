@@ -10,7 +10,7 @@
 - Abstract classes are designed to be inherited by other classes that provide implementations for the abstract methods.
 
 ### Syntax
-```bash
+```java
 abstract class ClassName {
     // Abstract method (without implementation)
     abstract returnType methodName(parameters);
@@ -22,7 +22,7 @@ abstract class ClassName {
 }
 ```
 ### Example 1: Using Abstract Class
-```bash
+```java
 
 // Abstract class
 abstract class Vehicle {
@@ -54,7 +54,7 @@ public class Main {
 
 ```
 Output
-```bash
+```java
 The vehicle stops.
 The car starts.
 ```
@@ -67,7 +67,7 @@ The car starts.
 - Interfaces support ***multiple inheritance***, allowing a class to implement more than one interface.
 
 ### Example 2: Using Interface
-```bash
+```java
 // Interface
 interface Vehicle {
     // Abstract method
@@ -96,6 +96,6 @@ public class Main {
 
 ```
 Output
-```bash
+```java
 The vehicle starts.
 The car stops.
