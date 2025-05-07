@@ -1,4 +1,3 @@
-package Easy;
 import java.util.Arrays;
 
 public class Anagram {
@@ -34,4 +33,4 @@ public class Anagram {
 
 // Input: s = "anagram", t = "nagaram"
 
-// Output: true
+// Output: Anagram

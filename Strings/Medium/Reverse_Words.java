@@ -1,4 +1,3 @@
-package Medium;
 public class Reverse_Words {
     public static String reverseWords(String s) {
         // Split the input string into words by using spaces (removes extra spaces as well)
