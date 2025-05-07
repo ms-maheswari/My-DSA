@@ -1,9 +1,5 @@
 public class First_Unique_Character {
-    public static void main(String[] args) {
-        String str = "hello";
-        int index = unique_Character(str);
-        System.out.println("First Unique Character Index: " + index);
-    }
+    // Function to find the index of the first unique character in a string
     public static int unique_Character(String str){
 
         // Create new array of length 26 to store alphabets
@@ -22,11 +18,15 @@ public class First_Unique_Character {
         }
        return -1;
     }
+    public static void main(String[] args) {
+        String str = "hello";
+        int index = unique_Character(str);
+        System.out.println("First Unique Character is " + str.charAt(index) + " at index " + index);
+    }
+    
 }
 
 
-// Input :
-// str = "hello"
+// Input : str = "hello"
 
-// Output :
-// First Unique Character Index: 0
+// Output : First Unique Character is: h at index: 0
