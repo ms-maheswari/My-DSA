@@ -1,5 +1,3 @@
-package Medium;
-
 public class String_Frequency {
 
     // Method 1 maintains the original order of appearance   

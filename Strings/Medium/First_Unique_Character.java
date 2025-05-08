@@ -1,4 +1,3 @@
-package Medium;
 public class First_Unique_Character {
 
     // Method 1
