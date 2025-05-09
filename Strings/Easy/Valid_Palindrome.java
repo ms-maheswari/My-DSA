@@ -1,5 +1,3 @@
-package Easy;
-
 public class Valid_Palindrome {
     public static boolean isPalindrome(String s) {
         // Convert the string to lowercase and remove all non-alphanumeric characters
@@ -27,4 +25,5 @@ public class Valid_Palindrome {
 }
 
 // Input: s = "A man, a plan, a canal: Panama"
+
 // Output: Valid Palindrome
