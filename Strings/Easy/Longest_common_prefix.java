@@ -1,5 +1,3 @@
-package Easy;
-
 import java.util.Arrays;
 
 public class Longest_common_prefix {
@@ -34,4 +32,5 @@ public class Longest_common_prefix {
 }
 
 // Input: strs = ["flower","flow","flight"]
+
 // Output: "fl"
