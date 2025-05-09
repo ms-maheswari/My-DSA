@@ -8,7 +8,7 @@ public class First_Unique_Character {
         for(int i = 0 ; i < s.length(); i++){
             boolean visited = false;
 
-            for(int j = i + 1 ; j < i ; j++){
+            for(int j = 0 ; j < i ; j++){
                 if(arr[i] == arr[j]){
                     visited = true;
                     break;
